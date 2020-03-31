@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 20px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  flex-direction: column;
+}
+
+.content #slide {
+  width: 200px;
+  height: 40px;
+  font-size: 1em;
+  border-radius: 10px;
+  background-color: blue;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.content #slide:hover {
+  background-color: #000;
+  transition: 0.3s ease-in;
+}
